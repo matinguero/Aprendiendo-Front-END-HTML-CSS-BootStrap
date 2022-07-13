@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(133, 126, 126);
+    text-align: center;
+}
+
+a{
+    color: blue;
+}
+
+ul{
+    text-align: left;
+    background-color: lightcoral;
+    color: lightblue;
+}
+
+.textoAzul{
+
+    color: blue;   
+
+}
+
+.textoVerde{
+    color:green;
+
+}
+
+.textoRojo{
+    color:red;
+}
+
+.textoTitulo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.textSubtitulo{
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    background-color: yellow;
+    /* border radius round corners */
+    border-radius: .5rem; 
+       /* grosor del borde */
+    border: 2px solid;
+    padding: 1rem;
+    
+}
+
+.textoNormal{
+    font-size: 1.1rem;
+    color:black;
+    text-align: justify;
+}

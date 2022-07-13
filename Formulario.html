@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Formulario permiso de viaje</p>
+    <br>
+
+    <form action="https://formspree.io/f/mvoljdbj" method="post">
+        <label for="nom">Nombre:</label>
+        <input type="text" name="nombre" id="nomb" placeholder="Nick" required>
+        <br>
+        <label for="pass">Contraseña!</label>
+        <!-- ojo los corchetes en los parametros -->
+        <input type="password" name="contraseña" id="pass" placeholder="Pass" pattern="[a-z]{5}"required> 
+        
+        <br>
+        <label for="">Fecha de viaje</label>
+        <input type="date" name="diafecha" id="fecha">
+        <br>
+        <label for="obser">Observaciones</label>
+        <br>
+
+        <textarea name="Observaciones" id="obser" cols="30" rows="10" placeholder="Texto...                                                       (max 300 caracteres)" maxlength="300"></textarea>
+        <br><br>
+        
+        <label for="">Selecciones lugar destino:</label>
+        <select name="Ciudad" id="city">
+            <option aria-placeholder="" default hidden>-- Seleccione --</option>
+            <option value="1">Ciudad 1</option>
+            <option value="2">Ciudad 2</option>
+            <option value="3">Ciudad 3</option>
+            <option value="4">Ciudad 4</option>
+            <option value="5">Ciudad 5</option>
+            <option value="6">Ciudad 6</option>
+            <option value="7">Ciudad 7</option>
+            <option value="8">Ciudad 8</option>
+            <option value="9">Ciudad 9</option>
+            <option value="10">Ciudad 10</option>
+
+        </select>
+        <br><br>
+        <label for="">En que mes viajara?</label>
+        <br>
+        <input type="radio"  name="mes" Value="1">Enero 
+        <br>
+        <input type="radio" name="mes" Value="2">Febrero
+        <br>
+        <input type="radio" name="mes" Value="3">Marzo
+        <br>
+        <input type="radio" name="mes" Value="4">Abril
+        <br>
+        <input type="radio" name="mes" Value="5">Mayo
+        <br>
+        <input type="radio" name="mes" Value="6">Junio
+        <br>
+        <input type="radio" name="mes" Value="7">Julio
+        <br>
+        <input type="radio" name="mes" Value="8">Agosto
+        <br>
+        <input type="radio" name="mes" Value="9">Septiembre
+        <br>
+        <input type="radio" name="mes" Value="10">Octubre
+        <br>
+        <input type="radio" name="mes" Value="11">Noviembre
+        <br>
+        <input type="radio" name="mes" Value="12">Diciembre
+        <br><br>
+        <label for="">que mascotas llevas?</label>
+        <br><br>
+        <input type="checkbox" name="Mascota" id="" value="1">Perro
+        <br>
+        <input type="checkbox" name="Mascota" id="" value="2">Gato
+        <br>
+        <input type="checkbox" name="Mascota" id="" value="3">Ambos
+        <br><br>
+        <input type="file" name="FotoDNI" id="FotoDNI">
+        <br><br>
+
+        <input type="submit"  value="Enviar">
+        
+    </form>
+</body>
+</html>

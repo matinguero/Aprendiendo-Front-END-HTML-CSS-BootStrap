@@ -1,0 +1,19 @@
+*{
+    font-family: Arial;
+}
+
+body {
+    background-color: aqua;
+    text-align: center;
+}
+
+h1 {
+    color: brown;
+    background-color: aquamarine;
+
+}
+p{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bold;
+}
