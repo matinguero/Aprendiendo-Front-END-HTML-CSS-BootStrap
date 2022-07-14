@@ -1,0 +1,23 @@
+p::first-line{
+    color: red;
+}
+
+p::first-letter{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h4::before{
+    content: "Leer con cuidado:";
+    color: lightcoral;
+}
+
+.flex-container{
+    background-color: lightcoral;
+    /*display: flex;*/
+}
+
+.flex-container div{
+    background-color: lightblue;
+    margin: 5rem;
+}
