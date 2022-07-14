@@ -1,0 +1,27 @@
+1) SSH key: protocolo seguro de comunicacion (abrir un tunel seguro) MAS RAPIDO QUE HTML/HTTPS
+2) pasos:
+A-https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+B-https://docs.github.com/es/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+3) Todo lo que usa Git lee las auditorias de git
+
+
+Branches:
+-Main
+-Otra
+
+para subir cambios a main se hace un "merge" desde un pull request(pagina web) el merge queda guardado en la nube ya esperando confirmacion.
+
+ git stash(guardado local)
+ git stash list (visualizar stashes)
+ git stash apply (aplica el ultimo stash en la lista)
+
+ git reset --hard (hasta el ultimo commit)
+
+clonar repos
+consola:
+git clone (HTTPS/SSH) [POR EJEMPLO SSH] git@github.com:matinguero/Aprendiendogit2.git/ git clone git@github.com:matinguero/MiPrimerRepo.git
+
+
+app: add-> clone -> a continuacion ->(pestañas): github.com/URL(HTTPS/SSH)
+
+swift/ kotlin/ c#/ type script/ java/python
