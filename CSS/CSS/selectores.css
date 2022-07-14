@@ -1,0 +1,56 @@
+*{
+    font-size: 40px;
+    background-color: rgb(110, 108, 108);
+    text-align: center;
+}
+
+a{
+    color: blue;
+}
+
+.txtnegro{
+    color: rgb(38, 0, 255);
+}
+
+div a {
+    background-color: rgb(195, 255, 0);
+    border-radius: .2rem;
+}
+
+div input {
+    background-color: brown;
+    border-radius: .2rem;
+}
+div .Subtitulo{
+    background-color: azure;
+    border-radius: .2rem;
+}
+
+.presentacion .titulo{
+    font-size: 1.5rem;
+    text-align: center;
+    font: italic;
+    margin: 1rem;
+}
+
+.presentacion .subtitulo{
+    font-size: 1.5rem;
+    text-align: center;
+    font: italic;
+    margin: 1rem;
+}
+
+.cursos .titulo{
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.cursos .texto{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: .5rem;
+}

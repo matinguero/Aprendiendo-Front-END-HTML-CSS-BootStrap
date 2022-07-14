@@ -1,0 +1,17 @@
+*{
+    font-size: 150px;
+}
+a:hover{
+    color: violet;
+    cursor: pointer;
+    font-size: 1.5rem;
+
+}
+a:visited{
+    color: red;
+  
+
+}
+li:nth-child(2n){
+    color: red;
+}
