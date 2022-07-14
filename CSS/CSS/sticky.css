@@ -1,0 +1,12 @@
+*{
+    font-size: 40px;
+
+}
+.posSticky{
+    background-color: lightblue;
+    border-radius: 10px;
+    margin: .5rem;
+    position: sticky;
+    top: 10px;
+
+}
