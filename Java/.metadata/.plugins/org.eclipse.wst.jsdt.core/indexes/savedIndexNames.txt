@@ -1,6 +1,0 @@
-INDEX VERSION 1.4+D:\MiPrimerRepo\Java\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1927846608.index
-3766251924.index
-1033292444.index
-2293353782.index
-2910379915.index
